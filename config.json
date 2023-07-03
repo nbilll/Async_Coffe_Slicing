@@ -1,0 +1,13 @@
+{
+    "modules": [
+        "Dasboard",
+        "Home",
+        "History",
+        "Order",
+        "Profile",
+        "product"
+    ],
+    "module_directory_name": "module",
+    "experimental_mode": false,
+    "unfreezed": true
+}
