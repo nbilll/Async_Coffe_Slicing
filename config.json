@@ -5,7 +5,8 @@
         "History",
         "Order",
         "Profile",
-        "product"
+        "product",
+        "Login"
     ],
     "module_directory_name": "module",
     "experimental_mode": false,

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556715220579",
+    "project_id": "nongskuy-8a5d6",
+    "storage_bucket": "nongskuy-8a5d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556715220579:android:776773979e7e1bbb7d2256",
+        "android_client_info": {
+          "package_name": "com.example.asynchronous_coffe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556715220579-ugi7ce33scsaatrbqdss7o2kf00fo5dm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4UhaKrWlZaPl_2MwuTAF-XQBbMshwWCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556715220579-gtkor9vn4fk67g9a4fapcfu8d7csv5i2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

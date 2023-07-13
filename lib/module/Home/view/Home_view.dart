@@ -107,6 +107,13 @@ class HomeView extends StatefulWidget {
                 height: 20.0,
               ),
               Text(
+                "${controller.getLevelUser(controller.sentence)}",
+                style: TextStyle(
+                  fontSize: 15.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
                 "Menu",
                 style: TextStyle(
                   fontSize: 16.0,
@@ -131,9 +138,7 @@ class HomeView extends StatefulWidget {
                   var item = controller.products[index];
                   return InkWell(
                     onTap: () async {
-                      Get.to(ProductView(
-                        item : item
-                      ));
+                      Get.to(ProductView(item: item));
                     },
                     child: Container(
                       decoration: BoxDecoration(

@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:asynchronous_coffe/state_util.dart';
 import '../view/Home_view.dart';
@@ -140,4 +141,17 @@ class HomeController extends State<HomeView> {
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
   ];
+
+  String sentence = FirebaseAuth.instance.currentUser!.email ?? "";
+  String jabatan = "";
+  String getLevelUser(String sentence) {
+    // Mencari posisi titik pada kalimat
+    int dotIndex = sentence.indexOf('.');
+
+    // Mengambil substring dari awal kalimat hingga titik
+    String firstWord = sentence.substring(0, dotIndex);
+
+    // Mengembalikan kata pertama sebelum titik
+    return firstWord;
+  }
 }
